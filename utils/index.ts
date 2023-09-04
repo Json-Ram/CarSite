@@ -1,5 +1,5 @@
 export async function fetchCars() {
-  const secretKey = process.env.API_KEY
+  const secretKey: any = process.env.API_KEY
   const headers = {
     'X-RapidAPI-Key': secretKey,
 		'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com'
