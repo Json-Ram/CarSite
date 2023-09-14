@@ -58,13 +58,13 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                   <Image src={generateCarImageUrl(car)} alt='car model' fill priority className='object-contain' />
                   </div>
                   <div className='flex gap-3'>
-                    <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-md'>
+                    <div className='flex-1 relative w-full h-24 bg-pattern rounded-md'>
                     <Image src={generateCarImageUrl(car, '29')} alt='car model' fill priority className='object-contain' />
                     </div>
-                    <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-md'>
+                    <div className='flex-1 relative w-full h-24 bg-pattern rounded-md'>
                     <Image src={generateCarImageUrl(car, '33')} alt='car model' fill priority className='object-contain' />
                     </div>
-                    <div className='flex-1 relative w-full h-24 bg-primary-blue-100 rounded-md'>
+                    <div className='flex-1 relative w-full h-24 bg-pattern rounded-md'>
                     <Image src={generateCarImageUrl(car, '13')} alt='car model' fill priority className='object-contain' />
                     </div>
                   </div>
